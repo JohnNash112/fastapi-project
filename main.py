@@ -29,7 +29,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return("hello there!")
+    return("hello": "there!")
 
 # collected_data = []    
 # @app.post("/analyse")
