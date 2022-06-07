@@ -48,7 +48,7 @@ def read_root():
 #     return dataRec
 @app.get("/score")
 def getScore():
-    dframe = pd.read_csv('/home/dbx/finalApp/download_bike_speed.csv', header=None)
+    dframe = pd.read_csv('download_bike_speed.csv', header=None)
     dframe.columns = ["time","Latitude","Longitude","speed"]
     dframe["TripID"] = 'T-0'
     dframe["Latitude"] = pd.to_numeric(dframe["Latitude"], errors ='ignore')
