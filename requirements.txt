@@ -1,3 +1,4 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 anyio==3.6.1
 attrs==21.4.0
 blis==0.7.7
@@ -56,11 +57,11 @@ srsly==2.4.3
 starlette==0.19.1
 thinc==8.0.17
 threadpoolctl==3.1.0
-torch-cpu==1.11.0
-torchvision-cpu==0.12.0
+torch==1.11.0+cpu
+torchvision==0.12.0+cpu
 tqdm==4.64.0
 traitlets==5.2.2.post1
-tsai-cpu==0.3.1
+tsai==0.3.1
 typer==0.4.1
 typing-extensions==4.2.0
 urllib3==1.26.9
