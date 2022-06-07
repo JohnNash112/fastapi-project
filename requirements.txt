@@ -68,3 +68,4 @@ urllib3==1.26.9
 uvicorn==0.17.6
 uvloop==0.16.0
 wasabi==0.9.1
+ipython==8.3.0
